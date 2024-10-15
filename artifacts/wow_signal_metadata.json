@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wow_signal.sol": "wow_signal"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wow_signal.sol": {
+			"keccak256": "0x6bc94f5bff17705711dbcf19df4ee319400806538497719359480f4b874f2cc6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4d321f7e344bc1fa3244373b2ba5ef24a3d2ace66e90d5dda71d6db6c306a74d",
+				"dweb:/ipfs/Qmczbyb7B5Wo6dLQBA5YEf3P28UU2YP2mwPtDMJ6Pt9nsT"
+			]
+		}
+	},
+	"version": 1
+}
