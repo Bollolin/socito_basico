@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Greeting_2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readgreeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newgreeting",
+						"type": "string"
+					}
+				],
+				"name": "savegreeting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wow_signal_dynamic.sol": "wow_signal_dynamic"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wow_signal_dynamic.sol": {
+			"keccak256": "0x82b657a1478c34cf2118266e1fc674a47e066567c8aff0d831d7396ebeefa149",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b930febe01fb5ade98f9eb195ec3e2014735323f79a6280cc9e2b95cb77f659",
+				"dweb:/ipfs/QmVq3iNQxB65qs7Hnyy6NHcKA4bGvcFZKP54XxxhVo7xui"
+			]
+		}
+	},
+	"version": 1
+}
